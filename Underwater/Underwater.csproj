@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
-    <UserSecretsId>0255fb02-06cf-4916-a3a2-59a5ff2111c2</UserSecretsId>
+    <UserSecretsId>8f3a952d-ca26-443b-bb15-c7fa24fccb58</UserSecretsId>
   </PropertyGroup>
-
-	<ItemGroup>
-		<Content Include="node_modules\**" CopyToPublishDirectory="PreserveNewest" />
-	</ItemGroup>
+  
+  <ItemGroup>
+    <Content Include="node_modules\**" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
